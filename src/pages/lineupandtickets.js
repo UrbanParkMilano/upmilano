@@ -12,7 +12,7 @@ const Shows = () => {
     const data = useStaticQuery(graphql`
         query {
             allContentfulShows ( sort: { fields: showDate, order: ASC } 
-            filter: {title:{ne:"ttt"} }
+            filter: {title:{ne:"testpost"} }
              ) {
               edges {
                     node {

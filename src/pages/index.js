@@ -31,11 +31,15 @@ const IndexPage = () => {
         
         
         allContentfulShows ( sort: { fields: showDate, order: ASC } limit:12
-          filter: {title:{ne:"ttt"} }
+          filter: {title:{ne:"testpost"} }
           ) {
             edges {
                 node {
                     title
+                    support
+                    support2
+                    support3
+                    support4
                     slug
                     showDate(formatString:"DD / MM / YYYY")
                     tiketLink
@@ -81,7 +85,7 @@ return (
                 </Col>
                 
                 <Col sm={9} xs={12} md={9} lg={10}className={indexStyle.showsindex}>
-                <Link className={indexStyle.showslink} to={`/shows/${edge.node.slug}`}><h3><strong>{edge.node.title} </strong></h3></Link>
+                <Link className={indexStyle.showslink} to={`/shows/${edge.node.slug}`}><h3><strong>{edge.node.title} </strong> | <small>{edge.node.support}</small> | <small>{edge.node.support2}</small> | <small>{edge.node.support3}</small> | <small>{edge.node.support4}</small> </h3></Link>
                   <hr/>
                   <p><i>{edge.node.showDate}</i></p>
                   <hr />

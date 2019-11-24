@@ -10,10 +10,14 @@ const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
         query {
             allContentfulShows ( sort: { fields: showDate, order: ASC } limit:4 
-              filter: {title:{ne:"ttt"} }) {
+              filter: {title:{ne:"testpost"} }) {
                 edges {
                     node {
                       title
+                      support
+                      support2
+                      support3
+                      support4
                       slug
                       showDate(formatString: "DD / MM / YYYY")
                       image {
@@ -51,7 +55,7 @@ const Header = ({ siteTitle }) => {
           />
         </div>
         <Carousel.Caption className={headerindexStyle.carouselcaption }>
-          <h2 className={headerindexStyle.contbackground}><Link  className={headerindexStyle.showslink} to={`/shows/${edge.node.slug}`}>{edge.node.title}</Link></h2> <br />
+      <h2 className={headerindexStyle.contbackground}><Link  className={headerindexStyle.showslink} to={`/shows/${edge.node.slug}`}>{edge.node.title} | <small>{edge.node.support}</small> | <small>{edge.node.support2}</small> | <small>{edge.node.support3}</small> | <small>{edge.node.support4}</small></Link></h2> <br />
           <h5 className={headerindexStyle.contbackground}><Link  className={headerindexStyle.showslink} to={`/shows/${edge.node.slug}`}><i>{edge.node.showDate}</i></Link></h5>
         </Carousel.Caption>
       </Carousel.Item>

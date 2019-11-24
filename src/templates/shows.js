@@ -13,6 +13,10 @@ export const query = graphql`
   query($slug: String!) {
     contentfulShows(slug: { eq: $slug }) {
       title
+      support
+      support2
+      support3
+      support4
       image {
         file {
             url
