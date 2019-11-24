@@ -9,7 +9,7 @@ import Logo from "./logo"
 const Navigation = () => (
 
     <Navbar bg="light" expand="md" className="bg-transparent" >
-    <Navbar.Brand><Link to="/" ><div className={navbarStyle.logo}><Logo/></div></Link></Navbar.Brand>
+    <Navbar.Brand><Link to="/" ><div className={navbarStyle.logo}><Logo /></div></Link></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" className={navbarStyle.navbartoggler} />
     <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
