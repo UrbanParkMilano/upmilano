@@ -1,0 +1,81 @@
+@import './variables.scss';
+
+.carousel{
+    margin-bottom: 2rem;
+
+}
+
+.carouselcaption {
+    position: absolute;
+    right: 5%;
+    top:50%;
+    left: 15%;
+    z-index: 10;
+    color: #fff;
+    text-align: left;
+}
+
+
+.carouselitem{
+   
+    object-fit: cover;
+    height: 90vh;
+    min-width: 100%;
+    img {
+        object-fit: cover;
+        min-width: 100%;
+    }
+    
+}
+
+.carouselcaptionlogo {
+    position: absolute;
+    right: 5%;
+    top:20%;
+    left: 15%;
+    z-index: 10;
+    color: #fff;
+    text-align: left;
+    max-width: 400px;
+}
+
+@media only (max-width: 550.98px) { 
+    .carouselitem{
+        object-fit: cover;
+        height: 50vh;
+        img{
+          object-fit: cover;
+          height: 50vh;
+        } 
+        div{
+            object-fit: cover;
+        }  
+    }
+}
+
+@media only (max-width: 988px) {
+    .carouselitem{
+        object-fit: cover;
+        height: 60vh;
+        img{
+          object-fit: cover;
+          height: 60vh;
+        }
+    }
+}
+
+.showslink{
+    color: inherit;
+}
+
+.showslink:hover{
+    color: $primarycolor;
+}
+
+.titlecarousel{
+    background-color: $primarycolor;
+    width: auto;
+    padding: 0.4rem;
+    display:inline-block;
+}
+

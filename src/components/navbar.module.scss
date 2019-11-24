@@ -1,0 +1,43 @@
+@import './variables.scss';
+
+.navbartoggler{
+border: 0px solid transparent;
+border-radius: 0rem;
+font-size: 2rem;
+margin: 0;
+padding: 0;
+}
+
+
+.navlinkcont{
+ margin-left: 4rem;
+
+}
+
+
+ @media only (max-width: 988px) {
+    .navlinkcont{
+        margin-left: 1rem;
+       
+       }
+ }
+
+
+.navlink{
+     color:grey;
+}
+
+.navlink:hover{
+    color: black;
+}
+
+.activenavlink{
+    color: $primarycolor;
+}
+
+.logo{
+    display: block;
+    width: 240px;
+    margin-left:-15px;
+    margin-bottom: 5px;
+}

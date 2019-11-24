@@ -1,0 +1,13 @@
+@import '../components/variables.scss';
+
+
+.card{
+    
+    a{
+        color:grey;
+        text-decoration: underline;
+    }
+    a:hover{
+        color:black;
+    }
+}

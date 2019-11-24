@@ -1,0 +1,77 @@
+@import '../components/variables.scss';
+
+
+.toast {
+    padding:0.5rem;
+    font-size: .875rem;
+    background-color: rgba(255,255,255,.85);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 .25rem .75rem rgba(0,0,0,.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: .25rem;
+    margin-bottom: 2rem;
+
+    a{
+        color:grey;
+    }
+    a:hover{
+        color:black;
+    }
+}
+
+.shows{
+    a{
+        color:grey;
+    }
+    a:hover{
+        color:black;
+    }
+}
+.blockshows{
+ margin-top: 2.5rem;
+}
+
+.showsindex{   
+    margin-top: 1rem;
+}
+
+.showslinkext{
+    right:0;   
+    float: right;
+}
+
+.showslink{
+    h1,h2,h3,h4,h5,h6{
+        color: white;
+        background-color: $primarycolor;
+        text-decoration: underline;
+    }
+}
+.showslink:hover{
+    h1,h2,h3,h4,h5,h6{
+        color: black;
+        background-color: white;
+    }
+}
+
+.roundimage{
+    height: 110px;
+    width: 110px;
+    border-radius:50%;
+    overflow: hidden;
+    object-fit:cover; 
+}
+
+
+@media only (max-width: 580.98px) { 
+    .roundimage{
+      display: none; 
+    }
+    
+ }
+
+ .parnersblock{
+    margin-top: 5rem;
+ }

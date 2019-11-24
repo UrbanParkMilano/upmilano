@@ -1,0 +1,36 @@
+$primarycolor:#68ff00;
+
+.underline {
+    text-decoration: underline;
+}
+
+.colored {
+    color: $primarycolor;
+}
+
+.contbackground{
+    background-color: $primarycolor;
+    width: auto;
+    padding: 0.4rem;
+    display:inline-block;
+}
+
+.contbackground:hover{
+    background-color: white;
+}
+
+.btn{
+    background-color: transparent;
+    border-color: $primarycolor;
+}
+
+.btn:hover{
+    background-color: $primarycolor;
+    border-color: $primarycolor;
+    a{
+      color: white;
+    }
+    a:hover{
+      color: white;
+    }
+}

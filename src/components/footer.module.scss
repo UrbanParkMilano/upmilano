@@ -1,0 +1,62 @@
+@import './variables.scss';
+
+.footer{
+    color: white;
+    background-color: $primarycolor;
+    padding:1rem 0 1rem;
+
+
+    a {
+        color: currentColor;
+    }
+}
+
+.logofooter{
+    display: block;
+    width: 245px;
+    margin-left:-12px;
+}
+
+.footercolumn{
+    padding-top: 20px;
+}
+
+
+.socialblock{
+margin-top: 2rem;
+}
+
+.creditblock{
+    display: table-cell;
+    vertical-align: bottom;
+    height: 185px;
+    width:auto;
+    text-align: right;
+    bottom:0;
+    right:0;
+
+}
+
+
+@media only (max-width: 550.98px) { 
+    .logofooter{
+        width: auto;
+    }
+    
+ }
+ @media only (max-width: 988px) {
+    .creditblock {
+        height: 35px;
+        width:auto;
+        text-align: left;
+    }  
+    .footercolumn{
+        h1,h2,h3,h4,h5,h6{
+            font-size: 1.5rem;
+        }
+    }
+ }
+
+.icon{
+    margin-left:2rem;
+}

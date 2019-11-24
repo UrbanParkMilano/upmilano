@@ -1,0 +1,25 @@
+@import '../components/variables.scss';
+
+.customlist {
+    list-style: none;
+    padding-left: 0;
+}
+.customlist li {
+    position: relative;
+    padding-left: 20px;
+}
+.customlist li:before {
+    content: '';
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    background-image: url('../images/icon.svg');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 5px;
+    
+}
+.iframe{
+    border:0;
+}

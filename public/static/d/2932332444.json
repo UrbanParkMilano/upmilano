@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"sponsors\" on type \"ContentfulSponsors\". Did you mean \"sponsor\"?","locations":[{"line":34,"column":9}]}]}
