@@ -55,7 +55,7 @@ const Header = ({ siteTitle }) => {
           />
         </div>
         <Carousel.Caption className={headerindexStyle.carouselcaption }>
-      <h2 className={headerindexStyle.contbackground}><Link  className={headerindexStyle.showslink} to={`/shows/${edge.node.slug}`}>{edge.node.title} | <small>{edge.node.support}</small> | <small>{edge.node.support2}</small> | <small>{edge.node.support3}</small> | <small>{edge.node.support4}</small></Link></h2> <br />
+      <h2 className={headerindexStyle.contbackground}><Link  className={headerindexStyle.showslink} to={`/shows/${edge.node.slug}`}>{edge.node.title}  <small>{edge.node.support}</small>  <small>{edge.node.support2}</small>  <small>{edge.node.support3}</small>  <small>{edge.node.support4}</small></Link></h2> <br />
           <h5 className={headerindexStyle.contbackground}><Link  className={headerindexStyle.showslink} to={`/shows/${edge.node.slug}`}><i>{edge.node.showDate}</i></Link></h5>
         </Carousel.Caption>
       </Carousel.Item>

@@ -18,6 +18,9 @@ const Shows = () => {
                     node {
                       title
                       support
+                      support2
+                      support3
+                      support4
                       slug
                       showDate(formatString: "DD/MM/YYYY")
                       tiketLink
@@ -50,7 +53,7 @@ const Shows = () => {
                 return (
                 <tr>
                   <td>{edge.node.showDate}</td>
-                  <td><Link to={`/shows/${edge.node.slug}`}><strong>{edge.node.title}</strong><strong>{edge.node.support}</strong></Link></td>
+                  <td><Link to={`/shows/${edge.node.slug}`}><strong>{edge.node.title}</strong> <small>{edge.node.support}</small> <small>{edge.node.support2}</small> <small>{edge.node.support3}</small> <small>{edge.node.support4}</small></Link></td>
                   <td><Button className={lineupandtiketsStyle.btn}><a href={edge.node.tiketLink}>Acquista Biglietto</a></Button></td>
                 </tr>
                 )

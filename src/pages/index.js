@@ -85,7 +85,7 @@ return (
                 </Col>
                 
                 <Col sm={9} xs={12} md={9} lg={10}className={indexStyle.showsindex}>
-                <Link className={indexStyle.showslink} to={`/shows/${edge.node.slug}`}><h3><strong>{edge.node.title} </strong> | <small>{edge.node.support}</small> | <small>{edge.node.support2}</small> | <small>{edge.node.support3}</small> | <small>{edge.node.support4}</small> </h3></Link>
+                <Link className={indexStyle.showslink} to={`/shows/${edge.node.slug}`}><h3><strong>{edge.node.title} </strong>  <small>{edge.node.support}</small>  <small>{edge.node.support2}</small>  <small>{edge.node.support3}</small>  <small>{edge.node.support4}</small> </h3></Link>
                   <hr/>
                   <p><i>{edge.node.showDate}</i></p>
                   <hr />
