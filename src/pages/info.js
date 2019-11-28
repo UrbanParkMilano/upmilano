@@ -36,25 +36,27 @@ const Info = () => {
                 <Col sm={12} lg={6}>
                 <h4>Bus e Treni</h4>
                 <ul className={infoStyle.customlist}>
-                <li>
-                    <h5>Bus 73</h5>
-                    <p>da P.zza S.Babila (capolinea) per Aeroporto Linate con destinazione S.Felicino. Dopo l'Aeroporto, 5^ fermata: Novegro.
-                    Autobus Starfly (per aeroporto Linate) da Stazione Centrale. Quindi proseguire con Autobus 73/ destinazione S. Felicino. 5^ fermata: Novegro.</p>
-                </li>
-                <li>
-                    <h5>Bus 38</h5>
-                    <p>da Piazzale Susa direzione Novegro </p>
-                </li>
-                <li>
-                    <h5>Bus 923 </h5>
-                    <p>permette di collegare l’Aeroporto di Linate e la stazione ferroviaria linee S5 / S6 passando per il Parco Esposizioni Novegro.</p>
-                </li>
-                <li>
-                    <h5>Passante ferroviario Trenord</h5>
-                </li>
-                <li>
-                    <h5>linee S5 / S6 fermata SEGRATE poi Bus 923.</h5>
-                </li>
+                    <li>
+                        <h5>Bus 73</h5>
+                        <p>da P.zza S.Babila (capolinea) per Aeroporto Linate con destinazione S.Felicino. Dopo l'Aeroporto, 5^ fermata: Novegro.</p>
+                    </li>
+                    <li>
+                    <h5>Autobus Starfly (per aeroporto Linate)</h5>
+                        <p>da Stazione Centrale. Quindi proseguire con Autobus 73/ destinazione S. Felicino. 5^ fermata: Novegro.</p>
+                    </li>
+                    <li>
+                        <h5>Bus 38</h5>
+                        <p>da Piazzale Susa direzione Novegro </p>
+                    </li>
+                    <li>
+                        <h5>Bus 923 </h5>
+                        <p>permette di collegare l’Aeroporto di Linate e la stazione ferroviaria linee S5 / S6 passando per il Parco Esposizioni Novegro.</p>
+                    </li>
+                    <li>
+                        <h5>Passante ferroviario Trenord</h5>
+                        <p>Linee S5 / S6 fermata SEGRATE poi Bus 923.</p>
+                        
+                    </li>
                 </ul>
                 </Col>
             </Row>
