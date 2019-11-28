@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Navbar, Nav   } from 'react-bootstrap';
+import { Navbar, Nav, Link   } from 'react-bootstrap';
 import navbarStyle from "./navbar.module.scss"
 import Logo from "./logo"
 
