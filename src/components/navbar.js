@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav   } from 'react-bootstrap';
 import navbarStyle from "./navbar.module.scss"
-
 import Logo from "./logo"
 
 
