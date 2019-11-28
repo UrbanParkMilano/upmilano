@@ -13,10 +13,10 @@ const Navigation = () => (
     <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
         <Nav.Link className={navbarStyle.navlinkcont}><h4><Link to="/lineupandtickets" className={navbarStyle.navlink} activeClassName={navbarStyle.activenavlink}>Line Up & Tickets</Link></h4></Nav.Link>
-        <Nav.Link className={navbarStyle.navlinkcont}><h4><Link to="/news" className={navbarStyle.navlink} activeClassName={navbarStyle.activenavlink}><h4>News</Link></h4></Nav.Link>
-        <Nav.Link className={navbarStyle.navlinkcont}><h4><Link to="/info" className={navbarStyle.navlink} activeClassName={navbarStyle.activenavlink}><h4>Info</Link></h4></Nav.Link>
-        <Nav.Link className={navbarStyle.navlinkcont}><h4><Link to="/location" className={navbarStyle.navlink} activeClassName={navbarStyle.activenavlink}><h4>Location</Link></h4></Nav.Link>
-        <Nav.Link className={navbarStyle.navlinkcont}><h4><Link to="/contatti" className={navbarStyle.navlink} activeClassName={navbarStyle.activenavlink}><h4>Contatti</Link></h4></Nav.Link>
+        <Nav.Link className={navbarStyle.navlinkcont}><h4><Link to="/news" className={navbarStyle.navlink} activeClassName={navbarStyle.activenavlink}>News</Link></h4></Nav.Link>
+        <Nav.Link className={navbarStyle.navlinkcont}><h4><Link to="/info" className={navbarStyle.navlink} activeClassName={navbarStyle.activenavlink}>Info</Link></h4></Nav.Link>
+        <Nav.Link className={navbarStyle.navlinkcont}><h4><Link to="/location" className={navbarStyle.navlink} activeClassName={navbarStyle.activenavlink}>Location</Link></h4></Nav.Link>
+        <Nav.Link className={navbarStyle.navlinkcont}><h4><Link to="/contatti" className={navbarStyle.navlink} activeClassName={navbarStyle.activenavlink}>Contatti</Link></h4></Nav.Link>
         </Nav> 
     </Navbar.Collapse>
     </Navbar>
