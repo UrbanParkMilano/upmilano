@@ -1,16 +1,18 @@
 @import './variables.scss';
 
+
 .navbartoggler{
 border: 0px solid transparent;
 border-radius: 0rem;
 font-size: 2rem;
 margin: 0;
+margin-right: -17px;
 padding: 0;
 }
 
 
 .navlinkcont{
- margin-left: 4rem;
+ margin-left: 1rem;
 
 }
 
@@ -37,8 +39,8 @@ padding: 0;
 
 .logo{
     display: block;
-    min-width: 200px;
-    margin-left:-25px;
+    width: 170px;
+    margin-left:-20px;
     margin-bottom: 5px;   
 }
 

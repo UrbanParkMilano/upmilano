@@ -15,7 +15,7 @@ const Info = () => {
     <Card className={infoStyle.card}>
         <Card.Header>
         <Accordion.Toggle as={Button} variant="link" eventKey="0">
-        <h2 className={infoStyle.underline} >Come arrivare</h2>
+            <h2 className={infoStyle.underline} >Come arrivare</h2>
         </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
