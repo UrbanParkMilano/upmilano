@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => {
             <Homepagecarouselimg />
  
           <Carousel.Caption className={headerindexStyle.carouselcaptionlogo }>
-            <div className={headerindexStyle.carousellogo }>
+            <div>
              <Logoindex/>
             </div>
           </Carousel.Caption>

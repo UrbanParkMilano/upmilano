@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layoutindex"
-import Indeximage from "../components/indeximage"
 import SEO from "../components/seo"
 import { Row, Col, Image, Button } from 'react-bootstrap';
 import indexStyle from "./index.module.scss"

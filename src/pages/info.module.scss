@@ -1,5 +1,18 @@
 @import '../components/variables.scss';
 
+button{
+    h2{
+        color: $primarycolor;
+    }
+    h2:hover{
+        background: $primarycolor;
+        color: white;
+    }
+}
+.card{
+    background-color: white;
+}
+
 .customlist {
     list-style: none;
     padding-left: 0;

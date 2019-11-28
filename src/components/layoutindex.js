@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { Container  } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Header from "./headerindex"
 import Navigation from "./navbar"
 import Footer from "./footer"
@@ -29,13 +29,17 @@ const Layout = ({ children }) => {
   return (
     <>
       <Container>
-        <Navigation></Navigation>
+  
+          <Navigation></Navigation>
+
       </Container>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Container>
-        <div className={layoutStyle.maincontainer} >
-          <main>{children}</main>
-        </div>
+
+          <div className={layoutStyle.maincontainer} >
+            <main>{children}</main>
+          </div>
+
       </Container>
       <Footer></Footer>
     </>

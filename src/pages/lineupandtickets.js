@@ -7,7 +7,6 @@ import lineupandtiketsStyle from "./lineupandtickets.module.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTicketAlt, faCalendarAlt, faDrum } from '@fortawesome/free-solid-svg-icons'
 
-
 const Shows = () => {
     const data = useStaticQuery(graphql`
         query {
@@ -34,7 +33,6 @@ const Shows = () => {
                 }
               }
     `)
-
     return (
         <Layout>
           <Row>

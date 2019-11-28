@@ -13,6 +13,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/Users/k/Desktop/sit/hello-gatsby/src/pages/index.js"))),
   "component---src-pages-info-js": hot(preferDefault(require("/Users/k/Desktop/sit/hello-gatsby/src/pages/info.js"))),
   "component---src-pages-lineupandtickets-js": hot(preferDefault(require("/Users/k/Desktop/sit/hello-gatsby/src/pages/lineupandtickets.js"))),
+  "component---src-pages-location-js": hot(preferDefault(require("/Users/k/Desktop/sit/hello-gatsby/src/pages/location.js"))),
   "component---src-pages-news-js": hot(preferDefault(require("/Users/k/Desktop/sit/hello-gatsby/src/pages/news.js")))
 }
 
