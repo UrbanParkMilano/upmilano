@@ -23,7 +23,7 @@ const Footer =() => (
           <br/>
           <a><h3 className={footerStyle.underline}>info@urbanparkmilano.com</h3></a>
           <div className={footerStyle.socialblock}>
-            <FontAwesomeIcon icon={faFacebook}  size="3x"/><FontAwesomeIcon className={footerStyle.icon} icon={faInstagram}  size="3x" /><FontAwesomeIcon className={footerStyle.icon} icon={faTwitter}  size="3x"/><FontAwesomeIcon className={footerStyle.icon} icon={faYoutube}  size="3x"/>
+             <a href="https://www.facebook.com/urbanparkmilano/"> <FontAwesomeIcon icon={faFacebook}  size="3x"/></a> <a href="https://www.instagram.com/urbanparkmilano/"> <FontAwesomeIcon className={footerStyle.icon} icon={faInstagram}  size="3x" /></a>{/*<FontAwesomeIcon className={footerStyle.icon} icon={faTwitter}  size="3x"/><FontAwesomeIcon className={footerStyle.icon} icon={faYoutube}  size="3x"/> */}
           </div>
           </div>
           </Col>

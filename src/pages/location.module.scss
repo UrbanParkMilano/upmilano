@@ -19,15 +19,17 @@
 .carouselitem{
    
     object-fit: cover;
-    
+    margin-bottom: 2rem;
     min-width: 100%;
     img {
+        margin: 0;
         object-fit: cover;
         min-width: 100%;
-        height: 100vh;
     }
     
 }
+
+
 
 .carouselcaptionlogo {
     position: absolute;

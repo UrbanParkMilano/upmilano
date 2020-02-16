@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/k/Desktop/sit/hello-gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/k/Desktop/UPM Milano/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/k/Desktop/sit/hello-gatsby/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/k/Desktop/UPM Milano/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#68ff00","theme_color":"#68ff00","display":"minimal-ui","icon":"src/images/upm-icon.png"},
     },{
-      plugin: require('/Users/k/Desktop/sit/hello-gatsby/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/k/Desktop/UPM Milano/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

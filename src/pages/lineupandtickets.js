@@ -36,6 +36,7 @@ const Shows = () => {
     return (
         <Layout>
           <Row>
+        
             <Col xs={12}>
             <h1 className={lineupandtiketsStyle.underline}>Shows</h1>
             <Table responsive className={lineupandtiketsStyle.table}>

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Urban Park Milano`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Immerso nel verde! Area concerti modulabile, fino a 40.000 persone. Parco Esposizioni Novegro Via Novegro - 20900 Segrate`,
     author: `Urban Park Milano`,
   },
   plugins: [
@@ -18,6 +18,7 @@ module.exports = {
       options: {
           spaceId:'6k0a6st0hs31',
           accessToken:'pSrVYq9dFlrDGWNG8o4lqp5QqRGNNCQuYcWVMecuHE4'
+          //accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       }
     },
     `gatsby-transformer-sharp`,

@@ -22,4 +22,4 @@ const Contatti = () => (
   </Layout>
 )
 
-export default Contatti
+export default Contatti   
