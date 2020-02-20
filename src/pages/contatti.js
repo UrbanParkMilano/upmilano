@@ -13,9 +13,9 @@ const Contatti = () => (
       </Col>
       <Col xs={12}>
         <div className={contattiStyle.conttext}><hr />
-        <h4 className={contattiStyle.contbackground}><a  href="info@urbanparkmilano.com">info@urbanparkmilano.com</a></h4><hr />
-        <h4 className={contattiStyle.contbackground}><a  href="promozione@urbanparkmilano.com">promozione@urbanparkmilano.com</a></h4><hr />
-        <h4 className={contattiStyle.contbackground}><a  href="produzione@urbanparkmilano.com">produzione@urbanparkmilano.com</a></h4><hr />
+        <h4 className={contattiStyle.contbackground}><a  href="mailto:info@urbanparkmilano.com">info@urbanparkmilano.com</a></h4><hr />
+        <h4 className={contattiStyle.contbackground}><a  href="mailto:promozione@urbanparkmilano.com">promozione@urbanparkmilano.com</a></h4><hr />
+        <h4 className={contattiStyle.contbackground}><a  href="mailto:produzione@urbanparkmilano.com">produzione@urbanparkmilano.com</a></h4><hr />
         </div>
       </Col>
     </Row>

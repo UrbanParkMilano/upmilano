@@ -63,7 +63,8 @@ const Shows = props => {
       <Row>
       <Col  xs={12} sm={12} md={12} lg={6} >
       <span><FontAwesomeIcon icon={faCalendarAlt}  size="2x"/></span><span className={showsStyle.info}> Data</span> <h4 className={showsStyle.dati}>{props.data.contentfulShows.showDate}</h4><hr />
-      <span><FontAwesomeIcon icon={faDoorOpen}  size="2x"/></span><span className={showsStyle.info}> Apertura porte</span> <h4 className={showsStyle.dati}>{props.data.contentfulShows.showtime}</h4><hr />
+      { `${props.data.contentfulShows.showGate}` !== 'null' ? <div><span><FontAwesomeIcon icon={faDoorOpen}  size="2x"/></span><span className={showsStyle.info}> Apertura porte</span> <h4 className={showsStyle.dati}>{props.data.contentfulShows.showGate}</h4><hr /></div> :  <span></span> }
+{console.log(`${props.data.contentfulShows.showGate}` + ' mmmkmkmkkkm')}
       <span><FontAwesomeIcon icon={faClock}  size="2x"/></span><span className={showsStyle.info}> Inizio concerto</span> <h4 className={showsStyle.dati}>{props.data.contentfulShows.showtime}</h4><hr />
       <span><FontAwesomeIcon icon={faTicketAlt}  size="2x"/></span><span className={showsStyle.info}><Button className={showsStyle.btn}> <a href={props.data.contentfulShows.tiketLink}> Acquista biglietto</a></Button></span><hr /> 
       </Col>
