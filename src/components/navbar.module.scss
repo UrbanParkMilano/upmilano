@@ -43,6 +43,14 @@ padding: 0;
     margin-left:-20px;
     margin-bottom: 5px;   
 }
+@media (prefers-color-scheme: dark) {
+    .logo{
+        background-color: white;
+    }
+    .navlink{
+        color:white;
+   }
+  }
 
 @media only (max-width: 650.98px) { 
     .logo{

@@ -21,7 +21,7 @@ const Info = () => {
         <Accordion.Collapse eventKey="0">
         <Card.Body>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.957088075388!2d9.27282045072135!3d45.47066834093087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c62010b75247%3A0xb8b6d7712de9a23e!2sParco%20Esposizioni%20Novegro!5e0!3m2!1sit!2sit!4v1572831176997!5m2!1sit!2sit" width="100%" height="450" frameborder="0"  allowfullscreen=""></iframe>
-            <p>Urban Park Milano è situato in prossimità dell’ Aeroporto di Linate, adiacente alla sede fieristica del Parco Esposizioni Novegro ed è raggiungibile agevolmente con diversi mezzi di trasporto.</p>
+            <p>Urban Park Milano si svolge all’interno del Parco Esposizioni Novegro, quartiere fieristico situato in prossimità dell’ Aeroporto di Linate ed è raggiungibile agevolmente con diversi mezzi di trasporto.</p>
             <Row>
                 <Col sm={12} lg={6}>
                 <h4>Auto</h4>
