@@ -3,7 +3,7 @@ import footerStyle from "./footer.module.scss"
 import { Container, Row, Col  } from 'react-bootstrap';
 import Logofooter from "./logofooter"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 
 const Footer =() => (
