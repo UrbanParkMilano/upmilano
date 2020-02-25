@@ -42,9 +42,9 @@ const Shows = () => {
             <Table responsive className={lineupandtiketsStyle.table}>
               <thead>
                 <tr>
-                  <th><FontAwesomeIcon icon={faCalendarAlt}  size="2x"/>  Data</th>
-                  <th><FontAwesomeIcon icon={faDrum}  size="2x"/>  Shows</th>
-                  <th><FontAwesomeIcon icon={faTicketAlt}  size="2x"/>  Tikets</th>
+                  <th><FontAwesomeIcon icon={faCalendarAlt}  size="2x"/>  <span>Data</span></th>
+                  <th><FontAwesomeIcon icon={faDrum}  size="2x"/>  <span>Shows</span></th>
+                  <th><FontAwesomeIcon icon={faTicketAlt}  size="2x"/> <span>Tickets</span></th>
                 </tr>
               </thead>
               <tbody>
