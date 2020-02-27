@@ -27,8 +27,7 @@ const IndexPage = () => {
                     }
                 }
             }
-        
-        
+         
         allContentfulShows ( sort: { fields: showDate, order: ASC } limit:12
           filter: {title:{ne:"testpost"} }
           ) {
@@ -50,8 +49,7 @@ const IndexPage = () => {
                 }
             }
         }
-    
-
+  
         allContentfulSponsors 
         {
           edges {
@@ -116,5 +114,3 @@ return (
 }
 
 export default IndexPage
-
-
