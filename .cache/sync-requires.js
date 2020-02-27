@@ -14,6 +14,7 @@ exports.components = {
   "component---src-pages-info-js": hot(preferDefault(require("/Users/k/Desktop/UPM Milano/src/pages/info.js"))),
   "component---src-pages-lineupandtickets-js": hot(preferDefault(require("/Users/k/Desktop/UPM Milano/src/pages/lineupandtickets.js"))),
   "component---src-pages-location-js": hot(preferDefault(require("/Users/k/Desktop/UPM Milano/src/pages/location.js"))),
-  "component---src-pages-news-js": hot(preferDefault(require("/Users/k/Desktop/UPM Milano/src/pages/news.js")))
+  "component---src-pages-news-js": hot(preferDefault(require("/Users/k/Desktop/UPM Milano/src/pages/news.js"))),
+  "component---src-pages-privacycookyepolicy-js": hot(preferDefault(require("/Users/k/Desktop/UPM Milano/src/pages/privacycookyepolicy.js")))
 }
 

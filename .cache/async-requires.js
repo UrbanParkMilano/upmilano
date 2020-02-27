@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-info-js": () => import("../src/pages/info.js" /* webpackChunkName: "component---src-pages-info-js" */),
   "component---src-pages-lineupandtickets-js": () => import("../src/pages/lineupandtickets.js" /* webpackChunkName: "component---src-pages-lineupandtickets-js" */),
   "component---src-pages-location-js": () => import("../src/pages/location.js" /* webpackChunkName: "component---src-pages-location-js" */),
-  "component---src-pages-news-js": () => import("../src/pages/news.js" /* webpackChunkName: "component---src-pages-news-js" */)
+  "component---src-pages-news-js": () => import("../src/pages/news.js" /* webpackChunkName: "component---src-pages-news-js" */),
+  "component---src-pages-privacycookyepolicy-js": () => import("../src/pages/privacycookyepolicy.js" /* webpackChunkName: "component---src-pages-privacycookyepolicy-js" */)
 }
 
