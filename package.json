@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Urban Park Milano",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Urban Park Milano powered by Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "lcsrbn",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.4.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
@@ -49,12 +49,5 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

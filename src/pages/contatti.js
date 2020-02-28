@@ -6,6 +6,7 @@ import contattiStyle from "./contatti.module.scss"
 
 const Contatti = () => (
   <Layout>
+    <SEO title="Contatti" />
     <Row className={contattiStyle.cont}>
       <Col xs={12}>
         <h1 className={contattiStyle.underline}>Contatti</h1>

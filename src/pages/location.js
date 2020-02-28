@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Row, Col, Carousel } from 'react-bootstrap';
+import SEO from "../components/seo"
 import locationStyle from "./location.module.scss"
 import locationimg1 from "../images/location/location-1.png"
 import locationimg2 from "../images/location/location-2.png"
@@ -12,6 +13,7 @@ import locationimg6 from "../images/location/location-6.png"
 const Location = () => {
   return (
   <Layout>
+    <SEO title="Location"  description="Immagini del Parco e della struttura"/>
 
     <Carousel className={locationStyle.carousel} className="d-none d-sm-block">
       <Carousel.Item className={locationStyle.carouselitem}>

@@ -67,6 +67,7 @@ const IndexPage = () => {
 return (
   
   <Layout>
+    <SEO title="Urban Park Milano" description="Immerso nel verde! Area concerti modulabile, fino a 40.000 persone. Parco Esposizioni Novegro Via Novegro - 20900 Segrate"  author="Urban Park Milano"/>
     <Row>
       <Col sm={12} md={12} lg={12}>
         <h1 className={indexStyle.underline + ' ' + indexStyle.colored}>Shows</h1>

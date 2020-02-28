@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Col, Card, Accordion, Button } from 'react-bootstrap';
@@ -11,6 +10,7 @@ const Info = () => {
   
   return (
   <Layout>
+      <SEO title="Info" description="Indicazioni su come raggiungerci e sul regolamento della struttura"/>
     <Accordion defaultActiveKey="0">
     <Card className={infoStyle.card}>
         <Card.Header>

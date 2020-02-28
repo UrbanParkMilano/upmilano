@@ -1,12 +1,14 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Row } from 'react-bootstrap'
+import SEO from "../components/seo"
 
 
 
 const Location = () => {
   return (
   <Layout>
+    <SEO title="Privacy e Cookye Policy"/>
     <Row>
     <h2>Titolare del trattamento</h2>
         <p>Razmataz Live srl, con sede legale Corso di Porta Nuova, 16, 20121 Milano MI, in qualità di titolare del trattamento, La informa ai sensi dell’art. 13 D.Lgs. 30.6.2003 n. 196 (in seguito, “Codice Privacy”) e dell’art. 13 Regolamento UE n. 2016/679 (in seguito, “GDPR”) che i Suoi dati saranno trattati con le modalità e per le finalità di seguito riportate.</p>

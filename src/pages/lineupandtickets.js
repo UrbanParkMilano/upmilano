@@ -35,8 +35,8 @@ const Shows = () => {
     `)
     return (
         <Layout>
+          <SEO title="Line Up and Ticket"  description="La nostra programmazione sempre aggiornata - link per l'aquisto dei biglietti"/>
           <Row>
-        
             <Col xs={12}>
             <h1 className={lineupandtiketsStyle.underline}>Shows</h1>
             <Table responsive className={lineupandtiketsStyle.table}>
