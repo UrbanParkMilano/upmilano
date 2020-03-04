@@ -33,8 +33,8 @@ const Header = ({ siteTitle }) => {
             }
   `)
   return (
-    <Carousel className={headerindexStyle.carousel}>
-      <Carousel.Item>
+    <Carousel className={headerindexStyle.carousel} interval={2000}>
+      <Carousel.Item >
           
             <Homepagecarouselimg />
  
